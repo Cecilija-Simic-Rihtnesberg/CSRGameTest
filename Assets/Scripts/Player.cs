@@ -12,6 +12,7 @@ public class Player : MonoBehaviour
     private bool jumpKeyWasPressed;
     private float horizontalInput;
     private Rigidbody rigitbodyComponenet;
+    private int superJumpsRemaining;
     
     
     //private bool isGrounded;
@@ -45,7 +46,13 @@ public class Player : MonoBehaviour
 
         if (jumpKeyWasPressed)
         {
-            rigitbodyComponenet.AddForce(Vector3.up * 7, ForceMode.VelocityChange);
+            float jumpPower = 5f;
+            if (superJumpsRemaining > 0)
+            {
+                jumpPower *= 2;
+                superJumpsRemaining--;
+            }
+            rigitbodyComponenet.AddForce(Vector3.up * jumpPower, ForceMode.VelocityChange);
             jumpKeyWasPressed = false;
         }
     }
@@ -55,6 +62,7 @@ public class Player : MonoBehaviour
         if (other.gameObject.layer == 7)
         {
             Destroy(other.gameObject);
+            superJumpsRemaining++;
         }
     }
 }
