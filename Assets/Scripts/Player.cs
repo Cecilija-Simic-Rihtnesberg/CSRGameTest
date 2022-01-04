@@ -6,12 +6,16 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    [SerializeField] Transform groundCheckTransform = null;
+    [SerializeField] private Transform groundCheckTransform = null;
+    [SerializeField] private LayerMask playerMask;
+    
     private bool jumpKeyWasPressed;
     private float horizontalInput;
     private Rigidbody rigitbodyComponenet;
-    private bool isGrounded;
     
+    
+    //private bool isGrounded;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -28,33 +32,29 @@ public class Player : MonoBehaviour
         }
 
         horizontalInput = Input.GetAxis("Horizontal");
-
     }
 
     // FixUppdate is colld once every physic update
     private void FixedUpdate()
     {
-        if (!isGrounded)
+        rigitbodyComponenet.velocity = new Vector3(horizontalInput, rigitbodyComponenet.velocity.y, 0);
+        if (Physics.OverlapSphere(groundCheckTransform.position, 0.1f, playerMask).Length == 0)
         {
             return;
         }
-        
+
         if (jumpKeyWasPressed)
         {
-            rigitbodyComponenet.AddForce(Vector3.up * 5, ForceMode.VelocityChange);
+            rigitbodyComponenet.AddForce(Vector3.up * 7, ForceMode.VelocityChange);
             jumpKeyWasPressed = false;
         }
-
-        rigitbodyComponenet.velocity = new Vector3(horizontalInput, rigitbodyComponenet.velocity.y,0);
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider other)
     {
-        isGrounded = true;
-    }
-    
-    private void OnCollisionExit(Collision collision)
-    {
-        isGrounded = false;
+        if (other.gameObject.layer == 7)
+        {
+            Destroy(other.gameObject);
+        }
     }
 }
