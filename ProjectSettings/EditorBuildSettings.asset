@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/LeranC#in15Min.unity
+    guid: ea74d77bbad065c47b8170ed32f62e71
   m_configObjects: {}
