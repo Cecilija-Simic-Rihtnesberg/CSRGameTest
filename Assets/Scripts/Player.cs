@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+//using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
@@ -14,6 +15,10 @@ public class Player : MonoBehaviour
     private Rigidbody rigitbodyComponenet;
     private int superJumpsRemaining;
     
+    //private int moneyAmount;
+
+    //[SerializeField] private Text coinCounter;
+    
     
     //private bool isGrounded;
 
@@ -21,6 +26,7 @@ public class Player : MonoBehaviour
     void Start()
     {
         rigitbodyComponenet = GetComponent<Rigidbody>();
+       // moneyAmount = 0;
     }
 
     // Update is called once per frame
@@ -31,7 +37,7 @@ public class Player : MonoBehaviour
         {
             jumpKeyWasPressed = true;
         }
-
+      //  coinCounter.text = "Coins: " + moneyAmount.ToString();
         horizontalInput = Input.GetAxis("Horizontal");
     }
 
@@ -60,7 +66,8 @@ public class Player : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.layer == 7)
-        {
+        { 
+           // moneyAmount += 1;
             Destroy(other.gameObject);
             superJumpsRemaining++;
         }
