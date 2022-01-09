@@ -7,6 +7,8 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    public int points = 0;
+    
     [SerializeField] private Transform groundCheckTransform = null;
     [SerializeField] private LayerMask playerMask;
     
@@ -20,7 +22,7 @@ public class Player : MonoBehaviour
     //[SerializeField] private Text coinCounter;
     
     
-    //private bool isGrounded;
+    private bool isGrounded;
 
     // Start is called before the first frame update
     void Start()
@@ -52,7 +54,7 @@ public class Player : MonoBehaviour
 
         if (jumpKeyWasPressed)
         {
-            float jumpPower = 5f;
+            float jumpPower = 4f;
             if (superJumpsRemaining > 0)
             {
                 jumpPower *= 2;
@@ -71,5 +73,10 @@ public class Player : MonoBehaviour
             Destroy(other.gameObject);
             superJumpsRemaining++;
         }
+    }
+
+    private void OnGUI()
+    {
+        GUI.Label(new Rect(10, 10, 100, 20), "Score : " + points);
     }
 }
