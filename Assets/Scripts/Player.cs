@@ -7,6 +7,7 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    private GUIStyle guiStyle = new GUIStyle();
     public int points = 0;
     
     [SerializeField] private Transform groundCheckTransform = null;
@@ -77,6 +78,9 @@ public class Player : MonoBehaviour
 
     private void OnGUI()
     {
-        GUI.Label(new Rect(10, 10, 100, 20), "Score : " + points);
+        GUI.contentColor = Color.red;
+        //guiStyle.font = Color.green;
+        guiStyle.fontSize = 30;
+        GUI.Label(new Rect(40, 40, 400, 80), "Score : " + points, guiStyle);
     }
 }

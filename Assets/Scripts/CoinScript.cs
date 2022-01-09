@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class CoinScript : MonoBehaviour
 {
+    public AudioClip coinSound;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,6 +23,7 @@ public class CoinScript : MonoBehaviour
         if (other.name == "Player")
         {
             other.GetComponent<Player>().points++;
+            AudioSource.PlayClipAtPoint(coinSound, transform.position);
             Destroy(gameObject);
         }
     }
