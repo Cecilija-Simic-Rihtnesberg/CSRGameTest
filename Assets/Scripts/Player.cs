@@ -80,7 +80,7 @@ public class Player : MonoBehaviour
     {
         GUI.contentColor = Color.red;
         //guiStyle.font = Color.green;
-        guiStyle.fontSize = 20;
+        guiStyle.fontSize = 30;
         GUI.Label(new Rect(40, 40, 400, 80), "Score : " + points, guiStyle);
     }
 }
