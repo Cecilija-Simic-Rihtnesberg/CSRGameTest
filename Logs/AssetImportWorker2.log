@@ -108,3 +108,120 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
 Registered in 0.009626 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Projects\CSRGameTest\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Projects\CSRGameTest\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.147 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1148ms)
+		BeginReloadAssembly (182ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (852ms)
+			LoadAssemblies (104ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (246ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (372ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (228ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3279 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (112.0 KB). Loaded Objects now: 3739.
+Memory consumption went from 118.8 MB to 118.7 MB.
+Total: 3.536500 ms (FindLiveObjects: 0.306600 ms CreateObjectMapping: 0.086900 ms MarkObjects: 2.991900 ms  DeleteObjects: 0.149400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1804480.956840 seconds.
+  path: Assets/Free Pack/Explosion 8.wav
+  artifactKey: Guid(d47e6ed162da1f740ad807d00f4679f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Pack/Explosion 8.wav using Guid(d47e6ed162da1f740ad807d00f4679f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c842b8b001e36ebc36dd726b29d790b') in 0.183539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Free Pack/Machine Gun 1.wav
+  artifactKey: Guid(d40330822ccea6140b664c0560d5022f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Pack/Machine Gun 1.wav using Guid(d40330822ccea6140b664c0560d5022f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e92550c79b61b65375135444a355bd80') in 0.035729 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Free Pack/Chemistry reaction 3 - Big.wav
+  artifactKey: Guid(4144ed0d6abcc42479fe873c54bbe0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Pack/Chemistry reaction 3 - Big.wav using Guid(4144ed0d6abcc42479fe873c54bbe0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '475e15966b22826dde3de23be54d3d71') in 0.038331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Free Pack/Ghost Manifestation 2.wav
+  artifactKey: Guid(618be86712ffac947997f96463301683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Pack/Ghost Manifestation 2.wav using Guid(618be86712ffac947997f96463301683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '221934f44c3d4428d009ac5090c42c2d') in 0.025364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Free Pack/Laser Multiple shots 1.wav
+  artifactKey: Guid(c9bb4171cafd3dd47829336ea4c8d988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Pack/Laser Multiple shots 1.wav using Guid(c9bb4171cafd3dd47829336ea4c8d988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fadd4f04dd439b42863bc0a9a86448ee') in 0.024204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Free Pack/Heavy Object Impact 4.wav
+  artifactKey: Guid(9930d5b4be15bb04c9d0a6fa0d7e6b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Pack/Heavy Object Impact 4.wav using Guid(9930d5b4be15bb04c9d0a6fa0d7e6b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7893ef0f6f30d90cd844795dd5d63b2') in 0.029855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Free Pack/Explosion 2.wav
+  artifactKey: Guid(986d6b30567e30e428f3f21373fe45ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Pack/Explosion 2.wav using Guid(986d6b30567e30e428f3f21373fe45ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2963fe6fa5bf90e14b29529faf1e78d5') in 0.026976 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Free Pack/Ice Cavern-Loop.wav
+  artifactKey: Guid(517dbd5357d36724c9ff71219172b9f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Pack/Ice Cavern-Loop.wav using Guid(517dbd5357d36724c9ff71219172b9f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b43e882c29c43ae4ff1cd1aff179628d') in 0.026435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Free Pack/Bloody punch.wav
+  artifactKey: Guid(a37f44cbf8c2a7443a3c361efa2f233a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Pack/Bloody punch.wav using Guid(a37f44cbf8c2a7443a3c361efa2f233a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae42835096519183482a9637f2e716a8') in 0.026282 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
