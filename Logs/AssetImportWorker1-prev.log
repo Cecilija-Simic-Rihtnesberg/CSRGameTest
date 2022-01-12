@@ -15,7 +15,7 @@ C:/Projects/CSRGameTest
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-58878
+65497
 Successfully changed project path to: C:/Projects/CSRGameTest
 C:/Projects/CSRGameTest
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Projects/CSRGameTest
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 78.82 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 88.61 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.2.3f1 (32358a8527b4)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.3f1/Editor/Data/Resources/UnitySubsystems
@@ -63,51 +63,51 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.3f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56272
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56352
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.3f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.3f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.3f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.016887 seconds.
+Registered in 0.016380 seconds.
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 79.13 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 84.21 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.697 seconds
+- Completed reload, in  0.737 seconds
 Domain Reload Profiling:
-	ReloadAssembly (698ms)
-		BeginReloadAssembly (99ms)
+	ReloadAssembly (738ms)
+		BeginReloadAssembly (108ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (504ms)
-			LoadAssemblies (96ms)
+		EndReloadAssembly (526ms)
+			LoadAssemblies (105ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (119ms)
+			SetupTypeCache (114ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (298ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (321ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (24ms)
+				InitializePlatformSupportModulesInManaged (28ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (79ms)
+				RefreshPlugins (84ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (145ms)
-				ProcessInitializeOnLoadMethodAttributes (48ms)
+				ProcessInitializeOnLoadAttributes (157ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008124 seconds.
+Registered in 0.012455 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Projects\CSRGameTest\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Projects\CSRGameTest\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -115,46 +115,46 @@ Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.132 seconds
+- Completed reload, in  1.278 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1133ms)
-		BeginReloadAssembly (185ms)
+	ReloadAssembly (1279ms)
+		BeginReloadAssembly (176ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (24ms)
-		EndReloadAssembly (839ms)
-			LoadAssemblies (102ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (993ms)
+			LoadAssemblies (99ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (245ms)
+			SetupTypeCache (291ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (366ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (438ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (21ms)
+				InitializePlatformSupportModulesInManaged (23ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (87ms)
-				ProcessInitializeOnLoadAttributes (221ms)
-				ProcessInitializeOnLoadMethodAttributes (24ms)
-				AfterProcessingInitializeOnLoad (11ms)
+				BeforeProcessingInitializeOnLoad (99ms)
+				ProcessInitializeOnLoadAttributes (267ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (19ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3279 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 27 unused Assets / (112.0 KB). Loaded Objects now: 3739.
 Memory consumption went from 118.8 MB to 118.7 MB.
-Total: 3.644900 ms (FindLiveObjects: 0.345800 ms CreateObjectMapping: 0.114600 ms MarkObjects: 3.015600 ms  DeleteObjects: 0.167600 ms)
+Total: 3.732100 ms (FindLiveObjects: 0.414400 ms CreateObjectMapping: 0.102100 ms MarkObjects: 3.043500 ms  DeleteObjects: 0.169800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -169,58 +169,28 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1804480.956062 seconds.
-  path: Assets/Free Pack/Computer explosion 6 - Alarm.wav
-  artifactKey: Guid(65b3207f91d67094e87be85dbe54c89d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free Pack/Computer explosion 6 - Alarm.wav using Guid(65b3207f91d67094e87be85dbe54c89d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7e65c02e2c56d6640201e0170f4d758') in 0.168193 seconds 
+  Time since last request: 1870108.287831 seconds.
+  path: Assets/Free Pack/Monster Bite.wav
+  artifactKey: Guid(ac6034ade498bb94b87620cdf6eac48b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Pack/Monster Bite.wav using Guid(ac6034ade498bb94b87620cdf6eac48b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab119f8ec5ff1da0aba04f9545d3cda5') in 0.150717 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Free Pack/Magic Spell - Sleeping spell 1.wav
-  artifactKey: Guid(adcac75087a17704ca6c0c3b15bc3aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free Pack/Magic Spell - Sleeping spell 1.wav using Guid(adcac75087a17704ca6c0c3b15bc3aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45355347988aed972d8df22ef0a8bc7f') in 0.028221 seconds 
+  Time since last request: 0.000036 seconds.
+  path: Assets/Free Pack/Secret door.wav
+  artifactKey: Guid(070779cdcfbe3ff4688691fb33bc3e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Pack/Secret door.wav using Guid(070779cdcfbe3ff4688691fb33bc3e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af8dc825c94169f38b8462709cc437d8') in 0.026224 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Free Pack/Hand Gun 1.wav
-  artifactKey: Guid(6739c01659ad96d47987f4ddee226b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free Pack/Hand Gun 1.wav using Guid(6739c01659ad96d47987f4ddee226b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bcf9486676df63e856521f0b3229d49') in 0.055011 seconds 
+  Time since last request: 0.000032 seconds.
+  path: Assets/Free Pack/Row Boat - Loop.wav
+  artifactKey: Guid(78542e76d4c24a745bc1bb599adb55df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Pack/Row Boat - Loop.wav using Guid(78542e76d4c24a745bc1bb599adb55df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3500869ca1726fcf5ccdb46a9a49b65') in 0.024984 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Free Pack/Magic Spell_Short Reverse_1.wav
-  artifactKey: Guid(7f4aa26d5b55226409cda231ffaf869b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free Pack/Magic Spell_Short Reverse_1.wav using Guid(7f4aa26d5b55226409cda231ffaf869b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f25a39515d88e012c5af41ca4ce24fb7') in 0.024971 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000091 seconds.
-  path: Assets/Free Pack/Indiana Jones Punch.wav
-  artifactKey: Guid(e1a75776f005439469f89a17a986c567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free Pack/Indiana Jones Punch.wav using Guid(e1a75776f005439469f89a17a986c567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57df61c1ddcad2105e3fb2d5f36662ed') in 0.035305 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Free Pack/Autocannon - Shot 1.wav
-  artifactKey: Guid(bb2e2714f962491428dcb0b38598b251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free Pack/Autocannon - Shot 1.wav using Guid(bb2e2714f962491428dcb0b38598b251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ab3d98210ef664000b5f849f85d98d9') in 0.036012 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Free Pack/Explosion 1.wav
-  artifactKey: Guid(1fd31868d68903d4f9e2c4a3b7ef98f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free Pack/Explosion 1.wav using Guid(1fd31868d68903d4f9e2c4a3b7ef98f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c69e2a6435bb8bd47e35963d59e78ec8') in 0.028447 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Free Pack/Bullet Impact 14.wav
-  artifactKey: Guid(75adfe9a619833445a701305b983e548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free Pack/Bullet Impact 14.wav using Guid(75adfe9a619833445a701305b983e548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db98f749a0cffeb99084f18b6ccc7dab') in 0.028703 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Free Pack/Carriage on Stone Road - Loop.wav
-  artifactKey: Guid(1b46c101cacd70a4fa09545bf0d68820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free Pack/Carriage on Stone Road - Loop.wav using Guid(1b46c101cacd70a4fa09545bf0d68820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01e441ca7a2802953bc06014347f7a97') in 0.027705 seconds 
+  Time since last request: 0.000028 seconds.
+  path: Assets/Free Pack/Missile - Shot 4.wav
+  artifactKey: Guid(281e15cc92254794eaf05caf4d044b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Pack/Missile - Shot 4.wav using Guid(281e15cc92254794eaf05caf4d044b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '274913c555292df2971e67e582b0c4ba') in 0.025062 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
