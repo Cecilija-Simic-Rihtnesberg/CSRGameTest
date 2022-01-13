@@ -1,0 +1,277 @@
+Using pre-set license
+Built from '2021.2/staging' branch; Version is '2021.2.3f1 (32358a8527b4) revision 3290506'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.1415; Version 2009; 64bit' Language: 'en' Physical Memory: 16253 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.2.3f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Projects/CSRGameTest
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+61397
+Successfully changed project path to: C:/Projects/CSRGameTest
+C:/Projects/CSRGameTest
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 79.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.2.3f1 (32358a8527b4)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Projects/CSRGameTest/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f15)
+    Vendor:   NVIDIA
+    VRAM:     5980 MB
+    Driver:   27.21.14.5749
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.3f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56260
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.3f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.3f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.3f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.013227 seconds.
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 73.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.609 seconds
+Domain Reload Profiling:
+	ReloadAssembly (610ms)
+		BeginReloadAssembly (82ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (442ms)
+			LoadAssemblies (79ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (93ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (270ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (73ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (126ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008781 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Projects\CSRGameTest\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Projects\CSRGameTest\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.213 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1214ms)
+		BeginReloadAssembly (170ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (916ms)
+			LoadAssemblies (195ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (247ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (348ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (83ms)
+				ProcessInitializeOnLoadAttributes (214ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3279 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (111.9 KB). Loaded Objects now: 3740.
+Memory consumption went from 118.8 MB to 118.7 MB.
+Total: 2.924300 ms (FindLiveObjects: 0.366600 ms CreateObjectMapping: 0.121500 ms MarkObjects: 2.320900 ms  DeleteObjects: 0.113300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1965521.428000 seconds.
+  path: Assets/Textura/rock03N.mat
+  artifactKey: Guid(4969b7c76e3b5864282641fa240af795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textura/rock03N.mat using Guid(4969b7c76e3b5864282641fa240af795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29ea54f4c197e2b4f5e6e7604a980e87') in 0.108267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.653923 seconds.
+  path: Assets/Textura/rock02N.mat
+  artifactKey: Guid(acb36b430bc99de41a22d4ab72dc819a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textura/rock02N.mat using Guid(acb36b430bc99de41a22d4ab72dc819a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '975370b92f278729d31395f50bff7e6c') in 0.014496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.589655 seconds.
+  path: Assets/Textura/branch01.mat
+  artifactKey: Guid(6a8274d40b1b3e444b60e9a3349ee508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textura/branch01.mat using Guid(6a8274d40b1b3e444b60e9a3349ee508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '327959032bb96e2066abaf8b004278ff') in 0.170975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 33.676797 seconds.
+  path: Assets/Textura/Tree.prefab
+  artifactKey: Guid(0d140457916c0b74ba6c91cb0759a09e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textura/Tree.prefab using Guid(0d140457916c0b74ba6c91cb0759a09e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee31f9d494d599389015732171f429ce') in 0.068246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 79.113278 seconds.
+  path: Assets/Textura/MotionBlurJitter.png
+  artifactKey: Guid(656af3972282a15429dfd87e9041303c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textura/MotionBlurJitter.png using Guid(656af3972282a15429dfd87e9041303c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39ff60dfb6eb4367790b713d20a1d27b') in 0.022144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.229702 seconds.
+  path: Assets/Textura/Tree.prefab
+  artifactKey: Guid(0d140457916c0b74ba6c91cb0759a09e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textura/Tree.prefab using Guid(0d140457916c0b74ba6c91cb0759a09e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '070979c43d3c26010453d9360c406abe') in 0.033204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.290773 seconds.
+  path: Assets/Textura/Materials/MotionBlurJitter.mat
+  artifactKey: Guid(8c1c41c127d8a614c939dfe65ec97339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textura/Materials/MotionBlurJitter.mat using Guid(8c1c41c127d8a614c939dfe65ec97339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45539fb8f779c5782e287317f473a884') in 0.013156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.606284 seconds.
+  path: Assets/Textura/Tree_Textures/diffuse.png
+  artifactKey: Guid(7b86bdfdc4302154cb5e8a75205d9f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textura/Tree_Textures/diffuse.png using Guid(7b86bdfdc4302154cb5e8a75205d9f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49a7ac0dbfdb1bfe5b926c61772e830e') in 0.010537 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Textura/Tree_Textures/shadow.png
+  artifactKey: Guid(aeba0e7da4ff0334b9252e05a8716fe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textura/Tree_Textures/shadow.png using Guid(aeba0e7da4ff0334b9252e05a8716fe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50f81d9a6ee3fc0570e96c5b1e9b8898') in 0.012554 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Textura/Tree_Textures/translucency_gloss.png
+  artifactKey: Guid(7c2877c1d64ceed498e771b641a7f4dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textura/Tree_Textures/translucency_gloss.png using Guid(7c2877c1d64ceed498e771b641a7f4dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8626d869b391dcf06fd7e5537677ca51') in 0.011017 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.152693 seconds.
+  path: Assets/Tree_Textures/diffuse.png
+  artifactKey: Guid(b7dcc4581cdcbb7468544dc37909d397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree_Textures/diffuse.png using Guid(b7dcc4581cdcbb7468544dc37909d397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa50d2068f0f5759f41e57e9d8171d23') in 0.023164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Tree_Textures/translucency_gloss.png
+  artifactKey: Guid(ef89d079737ca4a47b2c77cdb454f8d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree_Textures/translucency_gloss.png using Guid(ef89d079737ca4a47b2c77cdb454f8d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8830713fe94e2bbc77425b2c9bd26a4') in 0.020103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.333365 seconds.
+  path: Assets/UI Toolkit/PanelSettings.asset
+  artifactKey: Guid(4041c9d47463ae84ab545b3835905b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Toolkit/PanelSettings.asset using Guid(4041c9d47463ae84ab545b3835905b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18606471fc43c48e8739a06af80814f3') in 0.035695 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 67.400023 seconds.
+  path: Assets/Textura/VignetteMask.png
+  artifactKey: Guid(6856f0d48631ad745bf0ba7747dba4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textura/VignetteMask.png using Guid(6856f0d48631ad745bf0ba7747dba4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b16f5ce2ea89351666858f565104abb') in 0.011941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 47.666729 seconds.
+  path: Assets/Textura/branch01.tga
+  artifactKey: Guid(e21a201c2f7c4d84fa33f9161bfda6c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textura/branch01.tga using Guid(e21a201c2f7c4d84fa33f9161bfda6c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '567b02d363d49406e6d822f0d2843198') in 0.024612 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.324915 seconds.
+  path: Assets/Textura/grass01.tga
+  artifactKey: Guid(ab28665559bc1664ba1d99d7d0bc0a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textura/grass01.tga using Guid(ab28665559bc1664ba1d99d7d0bc0a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87b59f136600916cb553e007e85d2fa1') in 0.013741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.053993 seconds.
+  path: Assets/Textura/groundgrass01.tga
+  artifactKey: Guid(d25ffb3c01dea1a42ae286984191b538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textura/groundgrass01.tga using Guid(d25ffb3c01dea1a42ae286984191b538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37ad70617051706025718c1709284525') in 0.019855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 178.682683 seconds.
+  path: Assets/Textura/rock03.fbx
+  artifactKey: Guid(f4e02dce4d228714ab49e5cf1488c739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textura/rock03.fbx using Guid(f4e02dce4d228714ab49e5cf1488c739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd10d01d512e552660501f91a7c8d10e7') in 0.029394 seconds 

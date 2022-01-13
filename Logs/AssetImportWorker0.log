@@ -335,3 +335,91 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 4104.533653 seconds.
+  path: Assets/Resources/Sounds/A tricky puzzle.wav
+  artifactKey: Guid(f347642c2fc8f2948a94a4ab436b47b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sounds/A tricky puzzle.wav using Guid(f347642c2fc8f2948a94a4ab436b47b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82d81ce9bedb0b7c58574d17ec8cb274') in 0.135422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.978819 seconds.
+  path: Assets/Resources/Sounds/CoinPickup/coin.wav
+  artifactKey: Guid(fd254bf2a2c578649a6254f202de84b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sounds/CoinPickup/coin.wav using Guid(fd254bf2a2c578649a6254f202de84b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54ce1e2378d0cfb23497f7602dedfb63') in 0.021983 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Resources/Sounds/CoinPickup/gold_sack.wav
+  artifactKey: Guid(20d0f7face9a9144dbf78eaf805529c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sounds/CoinPickup/gold_sack.wav using Guid(20d0f7face9a9144dbf78eaf805529c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dd1d40cacd630bd7995c790785bfbeb') in 0.024117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.818476 seconds.
+  path: Assets/Textura/Front 2.png
+  artifactKey: Guid(5051225b6ad63d04a9054b67f165fbdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textura/Front 2.png using Guid(5051225b6ad63d04a9054b67f165fbdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22c06a47f6cef13710aa8f1a657a2408') in 0.023760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.893674 seconds.
+  path: Assets/Textura/7.hdr
+  artifactKey: Guid(ea00cb66497725e46ac62c721051becd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textura/7.hdr using Guid(ea00cb66497725e46ac62c721051becd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b2019f1325b9c570ccffc5c711d3433') in 0.021278 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 77.577298 seconds.
+  path: Assets/Textura/cloud1.mat
+  artifactKey: Guid(dbb3c7094fb75ed4a978842ec5eb14cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textura/cloud1.mat using Guid(dbb3c7094fb75ed4a978842ec5eb14cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a6599ee366cf70174cf8f6d33289ba5') in 0.061588 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 293.811416 seconds.
+  path: Assets/Textura/grass.mat
+  artifactKey: Guid(84a8e5467375ff744ba0298a602320dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textura/grass.mat using Guid(84a8e5467375ff744ba0298a602320dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00e23e5b6be17c12b5cd077a07e39b74') in 0.210804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.080325 seconds.
+  path: Assets/Textura/grass 1.mat
+  artifactKey: Guid(9277905dfd491c64db0b1e8d4ede1975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textura/grass 1.mat using Guid(9277905dfd491c64db0b1e8d4ede1975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac4422c8978cff6f3c99cc0441170037') in 0.015808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.404573 seconds.
+  path: Assets/Textura/Materials
+  artifactKey: Guid(97ca236bbf9fdaf4aaba0492dd1af3cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textura/Materials using Guid(97ca236bbf9fdaf4aaba0492dd1af3cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46a5c5942f068be282453278dcac3a64') in 0.002624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004222 seconds.
+  path: Assets/Textura/Materials/cheap plastic.mat
+  artifactKey: Guid(dde969710f1262a4ba7d8a7069c6ea20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textura/Materials/cheap plastic.mat using Guid(dde969710f1262a4ba7d8a7069c6ea20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc90a07ba02a3de6f80fc6edf5187cf3') in 0.029127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Textura/Materials/subtle.mat
+  artifactKey: Guid(8e6b6d6cf528db14cb2426602cda7d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textura/Materials/subtle.mat using Guid(8e6b6d6cf528db14cb2426602cda7d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4be6e0774514b1a34c466d92674645f2') in 0.017739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Textura/Materials/Front.mat
+  artifactKey: Guid(14a55fc3e4c9ea54d988a48260459f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textura/Materials/Front.mat using Guid(14a55fc3e4c9ea54d988a48260459f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79ff1ffdbdbb62ba11c27055fcad385b') in 0.016351 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Textura/Materials/Up.mat
+  artifactKey: Guid(9bd5a295c85ad4d4baaa71cc272b742e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textura/Materials/Up.mat using Guid(9bd5a295c85ad4d4baaa71cc272b742e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecd975a22af6fe3e484d164700068e27') in 0.011969 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Textura/Materials/Front 1.mat
+  artifactKey: Guid(299e58a76b1a4d2478d3a7eb7fa36d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textura/Materials/Front 1.mat using Guid(299e58a76b1a4d2478d3a7eb7fa36d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9bba1986fa855c82db6e4467fbb1056') in 0.019305 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

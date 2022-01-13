@@ -287,3 +287,49 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1964964.564255 seconds.
+  path: Assets/Resources/Sounds/Noisy Tube.mp3
+  artifactKey: Guid(25d84f42ee4abbf42ae072d8b8f98707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sounds/Noisy Tube.mp3 using Guid(25d84f42ee4abbf42ae072d8b8f98707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed5ecaea32c69bd9296d1737f02005fa') in 0.151954 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.963636 seconds.
+  path: Assets/Resources/Sounds/CoinPickup/coin_drop.wav
+  artifactKey: Guid(920270e8e08acd142af26a565034c565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sounds/CoinPickup/coin_drop.wav using Guid(920270e8e08acd142af26a565034c565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84f99c98acbdf2a03c6ec8b18a1ebc11') in 0.022325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Resources/Sounds/CoinPickup/dropmetalthing.ogg
+  artifactKey: Guid(c95ceeeeb0cbaa94a940a90ccb453391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Sounds/CoinPickup/dropmetalthing.ogg using Guid(c95ceeeeb0cbaa94a940a90ccb453391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b519d3951360afa21749538aff2ec68a') in 0.020651 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 451.962214 seconds.
+  path: Assets/Textura/Materials/7.mat
+  artifactKey: Guid(5f664dc58f97f54469df58f1b9ee4b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textura/Materials/7.mat using Guid(5f664dc58f97f54469df58f1b9ee4b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e4d71b8fd80b1dc1f7c2b5cfea18be5') in 0.060953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Textura/Materials/digicam.mat
+  artifactKey: Guid(c286647b3fe0bea4f8e4f9e718ee915a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textura/Materials/digicam.mat using Guid(c286647b3fe0bea4f8e4f9e718ee915a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0ca2a26d6b9e6e588e1892791dda7ef') in 0.018539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Textura/Materials/road 2.mat
+  artifactKey: Guid(ed2f6b39533bac940a333b8c0eb401d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textura/Materials/road 2.mat using Guid(ed2f6b39533bac940a333b8c0eb401d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b21d5114c95d6c56d7fc8ec437d3173') in 0.019701 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Textura/Materials/Front 2.mat
+  artifactKey: Guid(20c78b93ca7cc384da30d773385433b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textura/Materials/Front 2.mat using Guid(20c78b93ca7cc384da30d773385433b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c43993d7c12236c1ff85bf5ad069647') in 0.025996 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
