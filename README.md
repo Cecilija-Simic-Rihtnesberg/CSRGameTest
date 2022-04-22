@@ -4,7 +4,10 @@
 My First Game 
 
 
-![image](https://user-images.githubusercontent.com/90723803/164676844-3d80dbf5-9aca-4a5e-be73-67c3e4f5e746.png)
+
+https://user-images.githubusercontent.com/90723803/164681444-506e1180-a3ea-4fad-8a07-0206d2fa85ec.MOV
+
+
 
 
 A game for children under 10 years old, its about a shady banker who goes out in the evening and collects money. He jumps from cube to cube and collects coins in different sizes. The road is located in a forest, with a river below. In the background you can see the sea with an island in it, with the sky and full moon. Throughout the game, there is some scary night music in the background, and coin sounds activated when you collect  a coin. My ten year old son loved it.
