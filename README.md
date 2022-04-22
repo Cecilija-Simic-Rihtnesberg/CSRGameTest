@@ -12,15 +12,9 @@ https://user-images.githubusercontent.com/90723803/164681444-506e1180-a3ea-4fad-
 
 A game for children under 10 years old, its about a shady banker who goes out in the evening and collects money. He jumps from cube to cube and collects coins in different sizes. The road is located in a forest, with a river below. In the background you can see the sea with an island in it, with the sky and full moon. Throughout the game, there is some scary night music in the background, and coin sounds activated when you collect  a coin. My ten year old son loved it.
  
-What Went Well 
+
 My favourite part is the very structure of the game because you can build and develop the game by adding other elements such as traps. The game has endless possibilities. Since I have built everything myself without help, I have learned how Unity works and I was able to put perspective into the picture. I was really happy when I finished building the player (banker) without using a ready-made application from Unity. The player moves backwards, forwards, and jumps which I thought was very cool. I tried background music which worked well within the atmosphere of the game. I am also proud of the small but important factor which is the sound of coins when being collected.
- 
-What Didn’t Go Well
-The biggest struggle I encountered when I built this game was coding and time. 
-The character (Banker) is obviously a very simple design, and since I did not have time to make it more interesting unfortunately. 
-I had some trouble publishing the game. It starts ok but only charges to 90%. Even though I waited for several hours for publication, I did not succeed.
-Edit - Game_1 - Unity Play
- 
+
 
 
 Process
