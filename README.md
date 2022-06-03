@@ -2,7 +2,8 @@
 ![Night](https://user-images.githubusercontent.com/90723803/166461294-57e8d316-1c63-4586-abb0-279b7fb59ae7.JPG)
 
 
-My First Game 
+#### My First Game 
+
 
 
 
@@ -21,7 +22,7 @@ My favourite part is the very structure of the game because you can build and de
 Process
 
 
-1.	I first started by building simple cubes and cylinders. I made it possible for players to go back / forth and jump.
+### 1.	I first started by building simple cubes. I made it possible for players to go back / forth and jump.
 
 ![image](https://user-images.githubusercontent.com/90723803/164676586-62210be8-a454-47cd-94aa-19db7d0955ab.png)
 
@@ -29,14 +30,14 @@ Process
 
 
 
-2.	In the second part I did some surroundings with the banker, money and the bank.
+### 2.	In the second part I did some surroundings with the banker, money and the bank.
 
 ![image](https://user-images.githubusercontent.com/90723803/164678638-66169aaf-fd5e-49b6-82a0-f6a8d729ba88.png)
 
 
 
 
-3.	In the last part I added background music, count sounds and count counting.
+### 3.	In the last part I added background music, count sounds and count counting.
 
 ![image](https://user-images.githubusercontent.com/90723803/164676636-256bc84a-e6ff-4069-888f-6bb243f1e260.png)
 
