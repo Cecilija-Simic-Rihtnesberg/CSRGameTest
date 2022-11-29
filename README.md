@@ -1,13 +1,8 @@
 
-![Night](https://user-images.githubusercontent.com/90723803/166461294-57e8d316-1c63-4586-abb0-279b7fb59ae7.JPG)
+#### My First Game
 
 
-#### My First Game 
-
-
-
-
-https://user-images.githubusercontent.com/90723803/164681444-506e1180-a3ea-4fad-8a07-0206d2fa85ec.MOV
+https://user-images.githubusercontent.com/90723803/204596997-7a062880-3ffd-4ba4-b125-56c329836f7e.mov
 
 
 
@@ -40,5 +35,8 @@ Process
 ### 3.	In the last part I added background music, count sounds and count counting.
 
 ![image](https://user-images.githubusercontent.com/90723803/164676636-256bc84a-e6ff-4069-888f-6bb243f1e260.png)
+
+
+![A-2-Game1-Capture](https://user-images.githubusercontent.com/90723803/204598973-c44f2f8f-503b-4a15-8388-84a6e15c63f6.JPG)
 
 
